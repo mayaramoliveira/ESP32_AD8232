@@ -19,6 +19,7 @@ Componentes utilizados:
 - ProtoBoard
 
 Interfaces:
+
 - Ubidots: Para publicar os dados na nuvem IoT, precisamos de alguma plataforma IoT e Ubidots é uma dessas plataformas. Ubidots oferece uma plataforma para desenvolvedores que permite capturar facilmente dados de sensores e transformá-los em informações acionáveis. A plataforma Ubidots pode enviar dados para a nuvem a partir de qualquer dispositivo habilitado para Internet. (https://ubidots.com/stem/)
 
   ![image](https://github.com/mayaramoliveira/ESP32_AD8232/assets/159947412/a115588c-d369-4d44-81ec-9b372a65726d)
