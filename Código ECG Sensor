@@ -6,7 +6,6 @@
 #define TOKEN "BBUS-E7wZbnvUOyqg5U1Y2nc0ekXvq6kthI" // TOKEN Ubidots
 #define MQTT_CLIENT_NAME "mayarameneses"               // Nome do cliente MQTT
                                                 
- 
 /****************************************
  * Definir constantes
  ****************************************/
