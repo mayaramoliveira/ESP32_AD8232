@@ -13,10 +13,21 @@ Modelo de montagem:
 
 Componentes utilizados:
 
-- Placa ESP32	 
-- Sensor de ECG AD8232  
-- Cabo de dados micro USB 5V	 
-- ProtoBoard
+- Placa ESP32: A placa ESP32 é um microcontrolador de baixo custo e alto desempenho, projetado para aplicações de Internet das Coisas (IoT). Ela possui um processador dual-core, capacidades de comunicação sem fio Wi-Fi e Bluetooth, além de uma variedade de interfaces e pinos de entrada/saída (I/O) que a tornam ideal para projetos IoT.
+Função no Projeto: A placa ESP32 será responsável por controlar a comunicação entre o sensor de ECG AD8232 e a plataforma de nuvem com o Broker MQTT, processando os dados do sensor e enviando-os para análise e visualização.
+	 
+- Sensor de ECG AD8232: O sensor de ECG AD8232 é uma placa de baixo custo utilizada para medir a atividade elétrica do coração. Ele pode capturar sinais elétricos do coração e fornecer uma representação gráfica desses sinais como um ECG (Eletrocardiograma).
+  Função no Projeto: O sensor de ECG AD8232 será responsável por capturar os sinais elétricos do coração do usuário e transmiti-los para a placa ESP32. Em seguida, a placa ESP32 processará os dados e os enviará para a plataforma de nuvem, utilizando o Broker MQTT, para análise e visualização.
+
+- Cabo de dados micro USB 5V: O cabo Micro-USB é um cabo de conexão comum usado para fornecer energia e transferir dados entre dispositivos eletrônicos, como a placa ESP32, e outros dispositivos, como um computador ou carregador USB.
+  Função no Projeto: O cabo Micro-USB será utilizado para alimentar a placa ESP32, garantindo o funcionamento contínuo do sistema durante o monitoramento da frequência cardíaca.
+  
+- Fios de Conexão Jumpers: Os fios de conexão são condutores elétricos flexíveis usados para estabelecer conexões entre os diferentes componentes do circuito, como a placa ESP32, o sensor de ECG AD8232 e a Protoboard.
+  Função no Projeto: Os fios de conexão serão utilizados para conectar eletricamente os componentes do sistema, garantindo uma integração adequada e a transferência eficiente de sinais elétricos.
+
+- ProtoBoard: A protoboard é uma placa de circuito perfurada que permite a montagem temporária de circuitos eletrônicos sem a necessidade de soldagem. Ela possui uma matriz de furos interconectados que permitem a inserção e conexão dos componentes eletrônicos por meio de fios de conexão.
+  Função no Projeto: A protoboard será utilizada para montar temporariamente os componentes do circuito, facilitando o teste e desenvolvimento do sistema antes da implementação em uma placa de circuito permanente
+
 
 Interfaces:
 
